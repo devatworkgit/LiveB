@@ -1,16 +1,16 @@
 a, ul.menu li.collapsed > a:before, ul.menu li.collapsed > a:hover:before, ul.menu li.expanded > a:hover:before, ul.pager li.pager-current, 
 .item-list ul li.pager-current.last, .views-field-title a, .footer-area ul.social-media-info li a, ul.social-media-info li a:hover i, 
 .view-showcases .view-content .more-link a, .comment-counter, .comment ul.links li a, #site-name a, .item-list ul.quicktabs-tabs > li.active > a,
-.item-list ul.quicktabs-tabs > li.active > a:hover, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover { color: #961300; }
+.item-list ul.quicktabs-tabs > li.active > a:hover, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover { color: #d04233; }
 
-#main-navigation .sf-menu>li.active-trail>a, #main-navigation ul.main-menu.menu>li.active-trail>a { color: #961300; border-bottom:2px solid #961300; }
+#main-navigation .sf-menu>li.active-trail>a, #main-navigation ul.main-menu.menu>li.active-trail>a { color: #d04233; border-bottom:2px solid #d04233; }
 
 #footer, #main-navigation .sf-menu ul li a:hover, #main-navigation .sf-menu ul li.sfHover>a,
 .view-promoted-items .icon, .team-member ul.social-bookmarks li a:hover, ul.links li a, a.more, input[type="submit"], 
 input[type="reset"], input[type="button"], .checkout-buttons .checkout-cancel, .checkout-buttons .checkout-back, .view-showcases .more-link a,
 .call-to-action a.more, .call-to-action a.more:hover, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, 
 .nav-pills > li.active > a:focus, .tp-bannertimer, ul.menu li a:hover, table th, .view-showcases .info span, .view-showcases .info a, .poll .bar .foreground
-{ background-color: #961300; }
+{ background-color: #d04233; }
 
 .tp-bullets.simplebullets.round .bullet { background-color: rgba(150,19,0,0.55); }
 
@@ -25,9 +25,9 @@ input[type="reset"], input[type="button"], .checkout-buttons .checkout-cancel, .
 	.tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected { background-color: #dd1d00; }
 }
 
-.team-member ul.social-bookmarks li a:hover { border-color: #961300; }
+.team-member ul.social-bookmarks li a:hover { border-color: #d04233; }
 
-ul.pager li.pager-current, .item-list ul li.pager-current.last { border-bottom: 1px solid #961300; }
+ul.pager li.pager-current, .item-list ul li.pager-current.last { border-bottom: 1px solid #d04233; }
 
 .comment ul.links li a:hover, a:hover, a:focus, blockquote:after, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
 ul.pager li > a:hover, #breadcrumb a:hover, .post-submitted-info i, ul.social-bookmarks li a, ul.brands li a, .view-showcases .view-content .more-link a:hover, 
@@ -52,7 +52,7 @@ ul.pager li > a:hover, .footer-area .item-list ul.quicktabs-tabs, .footer-area .
 .item-list ul.quicktabs-tabs > li > a:hover, .nav-tabs > li > a:hover, .footer-area ul.social-bookmarks li a:hover, .footer-area ul.brands li a:hover,
 .subfooter-area ul.social-bookmarks li a:hover, .subfooter-area ul.brands li a:hover { border-color: #dd1d00; }
 
-.footer-area .item-list ul.quicktabs-tabs > li.active > a, .footer-area .nav-tabs > li.active > a { border-color: #dd1d00 #dd1d00 #961300 #dd1d00!important; }
+.footer-area .item-list ul.quicktabs-tabs > li.active > a, .footer-area .nav-tabs > li.active > a { border-color: #dd1d00 #dd1d00 #d04233 #dd1d00!important; }
 
 .overlay { 
 background: rgba(221,29,0,0.75);
@@ -66,12 +66,12 @@ background: linear-gradient(to bottom,  rgba(221,29,0,0.75) 0%,rgba(150,19,0,0.7
 
 .caption-link a { 
 background: #dd1d00; /* Old browsers */
-background: -moz-linear-gradient(top, #dd1d00 0%, #961300 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd1d00), color-stop(100%,#961300)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #dd1d00 0%,#961300 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #dd1d00 0%,#961300 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #dd1d00 0%,#961300 100%); /* IE10+ */
-background: linear-gradient(to bottom, #dd1d00 0%,#961300 100%); /* W3C */
+background: -moz-linear-gradient(top, #dd1d00 0%, #d04233 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd1d00), color-stop(100%,#d04233)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #dd1d00 0%,#d04233 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #dd1d00 0%,#d04233 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #dd1d00 0%,#d04233 100%); /* IE10+ */
+background: linear-gradient(to bottom, #dd1d00 0%,#d04233 100%); /* W3C */
 }
 
 #highlighted, #footer-top { background-color: #ffdede; }
