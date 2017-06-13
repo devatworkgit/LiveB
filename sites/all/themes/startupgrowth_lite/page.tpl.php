@@ -13,7 +13,7 @@
             <div id="header-inside" class="clearfix">
                 <div class="row">
 
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <!-- #header-inside-left -->
                         <div id="header-inside-left" class="clearfix">
 
@@ -31,7 +31,8 @@
 
                         <?php if ($site_slogan):?>
                         <div id="site-slogan">
-                        <?php print $site_slogan; ?>
+                        <a href="mailto:contact@live-band.ro ">contact@live-band.ro </a><br/>
+                        <a href="tel:0751 088 833">0751 088 833</a>
                         </div>
                         <?php endif; ?>
 
@@ -43,7 +44,7 @@
                         <!-- EOF:#header-inside-left -->
                     </div>
 
-                    <div class="col-md-8">
+                    <div class="col-md-10">
                         <!-- #header-inside-right -->
                         <div id="header-inside-right" class="clearfix">
 

@@ -101,7 +101,7 @@ body.pff-31, .pff-31 input, .pff-31 select, .pff-31 textarea, .pff-31 blockquote
 	.form-text, .form-textarea, .block-superfish select, .block-search .form-submit, #search-block-form .form-submit { background-image: none; } 
 }
 
-body { font-size: 15px; font-weight: 400; line-height: 1.45; color: #1e1e1e; background-color: #1f2121;}
+body { font-size: 15px; font-weight: 400; line-height: 1.45; color: white; background-color: #1f2121;}
 
 p { margin: 0; padding: 0 0 15px 0; color: white;}
 
@@ -151,7 +151,7 @@ hr { border-top: 1px solid #c2c2c2; margin-bottom: 40px; margin-top: 40px; }
 /*Headings*/
 h1, h2, h3, h4, h5, h6 { line-height: 1.20; padding: 0; margin: 20px 0 10px 0; font-weight: 700; text-transform: uppercase; }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #1e1e1e; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #d04233; }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #4187d1; }
 
@@ -305,7 +305,7 @@ line-height: 1; left: 50%; margin-left: -19px; z-index: 4; }
 
 #main-navigation ul.menu li:before { content: ""; }
 
-#main-navigation ul.menu li a { font-size: 14px; font-weight:700; padding: 5px 5px 5px; text-transform:uppercase; margin: 0 5px;
+#main-navigation ul.menu li a { font-size: 14px; font-weight:700; padding: 5px 5px 5px; text-transform:uppercase; margin: 0 4px;
 border-bottom: 2px solid transparent; color: white; }
 
 #main-navigation ul.menu li a:hover, 
