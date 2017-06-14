@@ -507,7 +507,7 @@ function startupgrowth_lite_preprocess_page(&$variables) {
 			$variables['main_grid_class'] = 'col-md-8';
 			$variables['sidebar_grid_class'] = 'col-md-4 fix-sidebar-second';		
 		} else {
-			$variables['main_grid_class'] = 'col-md-8 col-md-offset-2';
+			$variables['main_grid_class'] = 'col-md-12';
 			$variables['sidebar_grid_class'] = '';			
 		}
 
