@@ -658,7 +658,6 @@ function startupgrowth_lite_menu_link(array $variables) {
       // when a submenu link is clicked.
       $options['attributes']['data-target'] = '#';
       $options['attributes']['class'][] = 'dropdown-toggle';
-      $options['attributes']['data-toggle'] = 'dropdown';
     }
   }
 
