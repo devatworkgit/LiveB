@@ -61,7 +61,7 @@
                                     <?php print render($page['navigation']); ?>
                                     <?php else : ?>
                                     <div id="main-menu">
-                                    <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => array('main-menu', 'menu'), ), 'heading' => array('text' => t('Main menu'), 'level' => 'h2', 'class' => array('element-invisible'), ), )); ?>
+                                    <?php print menu_tree(variable_get('menu_main_links_source', 'main-menu'));?>
                                     </div>
                                     <?php endif; ?>
                                 </nav>
