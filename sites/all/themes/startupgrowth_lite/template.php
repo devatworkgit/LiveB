@@ -535,6 +535,15 @@ function startupgrowth_lite_preprocess_page(&$variables) {
 		$variables['highlighted_bottom_right_grid_class'] = 'col-md-12';
 		$variables['highlighted_bottom_left_grid_class'] = 'col-md-12';		
 	}
+  
+  // Primary nav.
+  $variables['primary_nav'] = FALSE;
+  if ($variables['main_menu']) {
+    // Build links.
+    $variables['primary_nav'] = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+    // Provide default theme wrapper function.
+    $variables['primary_nav']['#theme_wrappers'] = array('menu_tree__primary');
+  }
 
 }
 
