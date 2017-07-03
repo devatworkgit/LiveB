@@ -61,7 +61,7 @@
                                     <?php print render($page['navigation']); ?>
                                     <?php else : ?>
                                     <div id="main-menu">
-                                    <?php print menu_tree(variable_get('menu_main_links_source', 'main-menu'));?>
+                                    <?php print render(menu_tree(variable_get('menu_main_links_source', 'main-menu')));?>
                                     </div>
                                     <?php endif; ?>
                                 </nav>
