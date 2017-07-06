@@ -1621,3 +1621,9 @@ label{
   padding-bottom: 15px;
   padding-top: 15px;
 }
+
+.dropdown-menu{
+  text-align:center  !important;
+  min-width: 224px !important;
+  
+}
