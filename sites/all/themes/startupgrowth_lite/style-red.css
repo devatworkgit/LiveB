@@ -29,7 +29,7 @@ input[type="reset"], input[type="button"], .checkout-buttons .checkout-cancel, .
 
 ul.pager li.pager-current, .item-list ul li.pager-current.last { border-bottom: 1px solid #d04233; }
 
-.comment ul.links li a:hover, a:hover, a:focus, blockquote:after, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+.comment ul.links li a:hover, a:hover, a:focus, blockquote:after, .blockquote:after, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
 ul.pager li > a:hover, #breadcrumb a:hover, .post-submitted-info i, ul.social-bookmarks li a, ul.brands li a, .view-showcases .view-content .more-link a:hover, 
 #top-content .views-field-title a:hover, .views-field-title a:hover, .view-testimonials .views-field-body p:after,
 .node-type-mt-testimonial .field-name-body p:after, .panel-title a, .mean-container a.meanmenu-reveal.meanclose:after { color: #dd1d00; }
