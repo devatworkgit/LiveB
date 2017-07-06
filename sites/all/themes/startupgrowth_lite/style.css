@@ -179,7 +179,7 @@ font-style: normal; font-size: 160px; line-height: 1; }
 	.footer-area blockquote { padding-left: 40px; font-size: 18px; }	
 	.footer-area blockquote:after { left: 0; font-size: 90px; }
   .footer-area .blockquote { padding-left: 40px; font-size: 18px; }	
-  .footer-area .testimonial-bottom { padding-left: 40px; font-size: 18px; }	
+  .footer-area .testimonial-bottom { padding-left: 40px; }	
 	.footer-area .blockquote:after { left: 0; font-size: 90px; }
 }
 
