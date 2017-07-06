@@ -156,6 +156,7 @@ pre:hover { max-height: 10000px; -webkit-transition: all ease-in-out 2s; -moz-tr
 -ms-transition: all ease-in-out 2s; transition: all ease-in-out 2s; }
 
 blockquote { font-size: 24px; font-style: italic; padding:0 0 0 150px; border-left: none; position: relative; margin: 40px 0 50px; }
+.testimonial-bottom { padding:0 0 0 150px; }
 .blockquote { font-size: 24px; font-style: italic; padding:0 0 0 150px; border-left: none; position: relative; margin: 40px 0 50px; }
 
 blockquote p { font-weight: 400; line-height: 1.44; }
@@ -163,6 +164,7 @@ blockquote p { font-weight: 400; line-height: 1.44; }
 
 .footer-area blockquote { padding-left: 70px; }
 .footer-area .blockquote { padding-left: 70px; }
+.footer-area .testimonial-bottom { padding-left: 70px; }
 
 /*blockquote quote symbol*/
 blockquote:after { position: absolute; font-family: 'PT Serif', Georgia, Times, Times New Roman, Serif; content: "“"; left: 45px; top: 0; color: #4187d1; 
@@ -177,6 +179,7 @@ font-style: normal; font-size: 160px; line-height: 1; }
 	.footer-area blockquote { padding-left: 40px; font-size: 18px; }	
 	.footer-area blockquote:after { left: 0; font-size: 90px; }
   .footer-area .blockquote { padding-left: 40px; font-size: 18px; }	
+  .footer-area .testimonial-bottom { padding-left: 40px; font-size: 18px; }	
 	.footer-area .blockquote:after { left: 0; font-size: 90px; }
 }
 
@@ -185,6 +188,7 @@ font-style: normal; font-size: 160px; line-height: 1; }
 	blockquote:after { left: 0; font-size: 130px; }
   .blockquote { padding: 0 0 0 75px; }
 	.blockquote:after { left: 0; font-size: 130px; }
+  .testimonial-bottom { padding: 0 0 0 75px; }
 }
 
 hr { border-top: 1px solid #c2c2c2; margin-bottom: 40px; margin-top: 40px; }
