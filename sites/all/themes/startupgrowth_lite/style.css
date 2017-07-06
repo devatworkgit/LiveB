@@ -1023,7 +1023,7 @@ ul.social-bookmarks li a:hover, ul.brands li a:hover { text-decoration: none; ba
 .footer-area ul.social-bookmarks li a:hover, .footer-area ul.brands li a:hover,
 .subfooter-area ul.social-bookmarks li a:hover, .subfooter-area ul.brands li a:hover { background-color: transparent; border-color: #4187d1; }
 
-ul.social-bookmarks .text, ul.brands .text { font-size: 19px; text-transform: uppercase; margin: 10px 0 0 0; float: left; text-align: left; }
+ul.social-bookmarks .text, ul.brands .text { font-size: 19px; text-transform: uppercase; margin: 10px 0 0 0; text-align: center; color:#d04233;}
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	ul.social-bookmarks li, ul.brands li { margin: 4px 5px; }
@@ -1651,4 +1651,10 @@ label{
 .node-type-solist #block-views-solist-videos-block {
   padding-bottom: 15px;
   padding-top: 15px;
+}
+
+.dropdown-menu{
+  text-align:center  !important;
+  min-width: 224px !important;
+  
 }
